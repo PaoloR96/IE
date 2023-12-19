@@ -1,0 +1,4 @@
+Time: 25165 ms
+Time: 15641 ms
+Time: 31254 ms
+Time: 15626 ms
