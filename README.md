@@ -3,6 +3,8 @@ This repository contains the final project of the **Impianti di Elaborazione** c
 
 ## Project
 The project consists in five different assignment:
+
+
 -[Homework1] (PCA_CLUSTERING): Characterisation of a **banking system workload**, analysing the dataset using *Principal Component Analysis* and *Clustering* techniques;
 
 -[Homework2] (WEB SERVER): Performance analysis of a **Web Server** through the phases of *capacity test*, *workload characterisation* and *design of experiment*;
