@@ -1,0 +1,259 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1703684498691,62,HTTP Request2 M 2,200,OK,Thread Group 2-1,bin,true,,855008,122,1,3,http://192.168.52.128/28.bmp,40,0,27
+1703684498691,63,HTTP Request1 M 1,200,OK,Thread Group 1-1,text,true,,1072803,122,1,3,http://192.168.52.128/23.csv,40,0,27
+1703684498757,35,HTTP Request1 M 2,200,OK,Thread Group 1-1,bin,true,,1046520,122,1,3,http://192.168.52.128/24.jpg,4,0,0
+1703684498796,785,HTTP Request1 L 2,200,OK,Thread Group 1-1,text,true,,34622167,122,1,3,http://192.168.52.128/35.pdf,5,0,0
+1703684499582,12,HTTP Request1 M 1,200,OK,Thread Group 1-1,text,true,,1072802,122,2,4,http://192.168.52.128/23.csv,3,0,0
+1703684499605,4,HTTP Request2 S 1,200,OK,Thread Group 2-2,text,true,,72135,122,2,5,http://192.168.52.128/5.html,4,0,1
+1703684499640,8,HTTP Request1 S 4,200,OK,Thread Group 1-1,text,true,,50098,121,2,6,http://192.168.52.128/4.csv,8,0,0
+1703684499612,42,HTTP Request3 M 1,200,OK,Thread Group 3-2,bin,true,,966152,122,2,6,http://192.168.52.128/31.bmp,4,0,1
+1703684499697,10,HTTP Request1 M 2,200,OK,Thread Group 1-1,bin,true,,1046520,122,2,6,http://192.168.52.128/24.jpg,3,0,0
+1703684499692,34,HTTP Request2 M 4,200,OK,Thread Group 2-2,,true,,944399,122,2,6,http://192.168.52.128/30.jmp,13,0,0
+1703684499777,14,HTTP Request2 M 4,200,OK,Thread Group 2-2,,true,,944399,122,2,6,http://192.168.52.128/30.jmp,3,0,0
+1703684499865,13,HTTP Request2 S 2,200,OK,Thread Group 2-2,bin,true,,79574,121,2,6,http://192.168.52.128/6.jpg,6,0,0
+1703684498757,1178,HTTP Request2 L 1,200,OK,Thread Group 2-1,text,true,,49283389,122,2,6,http://192.168.52.128/37.txt,5,0,0
+1703684499949,15,HTTP Request2 S 1,200,OK,Thread Group 2-2,text,true,,72134,122,2,6,http://192.168.52.128/5.html,14,0,0
+1703684499937,30,HTTP Request2 M 2,200,OK,Thread Group 2-1,bin,true,,855007,122,2,6,http://192.168.52.128/28.bmp,9,0,0
+1703684500024,14,HTTP Request2 M 2,200,OK,Thread Group 2-1,bin,true,,855007,122,2,6,http://192.168.52.128/28.bmp,10,0,0
+1703684500036,14,HTTP Request2 S 1,200,OK,Thread Group 2-2,text,true,,72134,122,2,6,http://192.168.52.128/5.html,14,0,0
+1703684500110,5274,HTTP Request2 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-1,text,false,,2094,0,7,21,http://192.168.52.128/39.mp3,0,0,0
+1703684500121,5263,HTTP Request2 S 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,7,21,http://192.168.52.128/8.html,0,0,0
+1703684499590,6320,HTTP Request1 L 1,200,OK,Thread Group 1-2,text,true,,24636579,122,8,24,http://192.168.52.128/34.pdf,11,0,6
+1703684505589,352,HTTP Request1 S 1,200,OK,Thread Group 1-8,text,true,,19767,121,8,24,http://192.168.52.128/1.txt,316,0,261
+1703684500588,5391,HTTP Request1 S 1,200,OK,Thread Group 1-3,text,true,,19767,121,8,24,http://192.168.52.128/1.txt,5345,0,5248
+1703684505912,88,HTTP Request1 M 3,200,OK,Thread Group 1-2,text,true,,1188300,122,8,24,http://192.168.52.128/25.pdf,38,0,0
+1703684505385,628,HTTP Request2 S 1,200,OK,Thread Group 2-1,text,true,,72135,122,8,24,http://192.168.52.128/5.html,517,0,465
+1703684503606,2461,HTTP Request2 S 3,200,OK,Thread Group 2-6,text,true,,103955,122,8,24,http://192.168.52.128/7.html,2300,0,2240
+1703684500610,5509,HTTP Request3 S 2,200,OK,Thread Group 3-3,bin,true,,169789,122,8,24,http://192.168.52.128/10.mp4,5280,0,5226
+1703684505980,154,HTTP Request1 S 3,200,OK,Thread Group 1-3,bin,true,,42122,121,8,24,http://192.168.52.128/3.jpg,72,0,0
+1703684506014,150,HTTP Request2 S 1,200,OK,Thread Group 2-1,text,true,,72134,122,8,24,http://192.168.52.128/5.html,71,0,0
+1703684503609,2562,HTTP Request3 S 3,200,OK,Thread Group 3-6,text,true,,194662,123,8,24,http://192.168.52.128/11.xlsx,2315,0,2237
+1703684506143,124,HTTP Request1 M 1,200,OK,Thread Group 1-2,text,true,,1072802,122,8,24,http://192.168.52.128/23.csv,62,0,0
+1703684506209,3529,HTTP Request1 S 1,200,OK,Thread Group 1-3,text,true,,19766,121,11,33,http://192.168.52.128/1.txt,68,0,0
+1703684506371,4126,HTTP Request1 M 2,200,OK,Thread Group 1-2,bin,true,,1046520,122,11,33,http://192.168.52.128/24.jpg,4023,0,0
+1703684500603,9980,HTTP Request2 S 2,200,OK,Thread Group 2-3,bin,true,,79575,121,11,33,http://192.168.52.128/6.jpg,5284,0,5233
+1703684501605,9034,HTTP Request2 S 2,200,OK,Thread Group 2-4,bin,true,,79575,121,11,33,http://192.168.52.128/6.jpg,8794,0,4235
+1703684501612,9112,HTTP Request3 S 1,200,OK,Thread Group 3-4,bin,true,,148145,121,11,33,http://192.168.52.128/9.jpg,8789,0,4229
+1703684510582,646,HTTP Request2 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-3,text,false,,2094,0,11,33,http://192.168.52.128/5.html,0,0,0
+1703684505385,8977,HTTP Request2 M 2,200,OK,Thread Group 2-2,bin,true,,855008,122,11,33,http://192.168.52.128/28.bmp,517,0,465
+1703684505606,8773,HTTP Request2 M 2,200,OK,Thread Group 2-8,bin,true,,855008,122,11,33,http://192.168.52.128/28.bmp,301,0,244
+1703684508607,5823,HTTP Request2 S 4,200,OK,Thread Group 2-11,text,true,,119484,122,11,33,http://192.168.52.128/8.html,1917,0,1789
+1703684514362,364,HTTP Request2 S 2,200,OK,Thread Group 2-2,bin,true,,79574,121,11,33,http://192.168.52.128/6.jpg,166,0,0
+1703684503590,11188,HTTP Request1 M 1,200,OK,Thread Group 1-6,text,true,,1072803,122,11,33,http://192.168.52.128/23.csv,2308,0,2256
+1703684507612,7199,HTTP Request2 S 1,200,OK,Thread Group 2-10,text,true,,72135,122,11,33,http://192.168.52.128/5.html,6820,0,2783
+1703684510497,5196,HTTP Request1 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-2,text,false,,2094,0,11,33,http://192.168.52.128/35.pdf,0,0,0
+1703684514379,1314,HTTP Request2 M 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-8,text,false,,2094,0,11,33,http://192.168.52.128/30.jmp,0,0,0
+1703684514779,915,HTTP Request1S 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-6,text,false,,2094,0,11,33,http://192.168.52.128/2.mp4,0,0,0
+1703684514812,4623,HTTP Request2 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-10,text,false,,2094,0,11,33,http://192.168.52.128/29.jpg,0,0,0
+1703684514835,4696,HTTP Request2 M 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,11,33,http://192.168.52.128/27.jpg,0,0,0
+1703684502587,19297,HTTP Request1 M 3,200,OK,Thread Group 1-5,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,3308,0,3256
+1703684521883,1,HTTP Request1 M 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-5,text,false,,2094,0,11,33,http://192.168.52.128/23.csv,0,0,0
+1703684504592,17393,HTTP Request1 M 3,200,OK,Thread Group 1-7,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,1306,0,1255
+1703684521984,1,HTTP Request1 M 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,text,false,,2094,0,11,33,http://192.168.52.128/23.csv,0,0,0
+1703684505942,16061,HTTP Request1 M 3,200,OK,Thread Group 1-8,text,true,,1188300,122,11,33,http://192.168.52.128/25.pdf,52,0,0
+1703684522003,0,HTTP Request1 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/3.jpg,0,0,0
+1703684509737,16095,HTTP Request1 M 4,200,OK,Thread Group 1-3,text,true,,899172,122,11,33,http://192.168.52.128/26.csv,680,0,0
+1703684525834,1,HTTP Request1 L 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-3,text,false,,2094,0,11,33,http://192.168.52.128/34.pdf,0,0,0
+1703684504611,21258,HTTP Request3 M 1,200,OK,Thread Group 3-7,bin,true,,966152,122,11,33,http://192.168.52.128/31.bmp,1290,0,1237
+1703684525870,1,HTTP Request3 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 3-7,text,false,,2094,0,11,33,http://192.168.52.128/11.xlsx,0,0,0
+1703684501588,24398,HTTP Request1 M 2,200,OK,Thread Group 1-4,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,8811,0,4252
+1703684522199,3897,HTTP Request1 S 3,200,OK,Thread Group 1-5,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,3726,0,3625
+1703684508588,17565,HTTP Request1 M 4,200,OK,Thread Group 1-11,text,true,,899173,122,11,33,http://192.168.52.128/26.csv,1924,0,1808
+1703684506609,19602,HTTP Request3 M 3,200,OK,Thread Group 3-9,bin,true,,990224,122,11,33,http://192.168.52.128/33.bmp,3903,0,3785
+1703684525987,923,HTTP Request1S 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,text,false,,2094,0,11,33,http://192.168.52.128/2.mp4,0,0,0
+1703684526212,881,HTTP Request3 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 3-9,text,false,,2094,0,11,33,http://192.168.52.128/41.mp3,0,0,0
+1703684510639,18164,HTTP Request2 M 4,200,OK,Thread Group 2-4,,true,,944399,122,11,33,http://192.168.52.128/30.jmp,95,0,0
+1703684528804,1,HTTP Request2 M 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-4,text,false,,2094,0,11,33,http://192.168.52.128/30.jmp,0,0,0
+1703684526098,2729,HTTP Request1S 2,200,OK,Thread Group 1-5,bin,true,,43731,121,11,33,http://192.168.52.128/2.mp4,112,0,0
+1703684526153,2698,HTTP Request1S 2,200,OK,Thread Group 1-11,bin,true,,43731,121,11,33,http://192.168.52.128/2.mp4,115,0,0
+1703684526149,2851,HTTP Request1 S 1,200,OK,Thread Group 1-3,text,true,,19767,121,11,33,http://192.168.52.128/1.txt,2733,0,115
+1703684522299,6724,HTTP Request1 S 1,200,OK,Thread Group 1-7,text,true,,19767,121,11,33,http://192.168.52.128/1.txt,6597,0,3602
+1703684528827,197,HTTP Request1S 2,200,OK,Thread Group 1-5,bin,true,,43731,121,11,33,http://192.168.52.128/2.mp4,122,0,0
+1703684511229,17982,HTTP Request2 M 4,200,OK,Thread Group 2-3,,true,,944400,122,11,33,http://192.168.52.128/30.jmp,3370,0,3199
+1703684529213,0,HTTP Request2 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-3,text,false,,2094,0,11,33,http://192.168.52.128/38.pdf,0,0,0
+1703684507588,24257,HTTP Request1 M 1,200,OK,Thread Group 1-10,text,true,,1072803,122,11,33,http://192.168.52.128/23.csv,6841,0,2807
+1703684531845,1,HTTP Request1 S 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,text,false,,2094,0,11,33,http://192.168.52.128/4.csv,0,0,0
+1703684507612,24494,HTTP Request3 M 2,200,OK,Thread Group 3-10,text,true,,974939,122,11,33,http://192.168.52.128/32.pdf,7161,0,2783
+1703684519532,12598,HTTP Request2 M 2,200,OK,Thread Group 2-2,bin,true,,855008,122,11,33,http://192.168.52.128/28.bmp,2534,0,2389
+1703684519436,12730,HTTP Request2 M 4,200,OK,Thread Group 2-10,,true,,944400,122,11,33,http://192.168.52.128/30.jmp,2629,0,2484
+1703684532165,1,HTTP Request2 M 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-10,text,false,,2094,0,11,33,http://192.168.52.128/30.jmp,0,0,0
+1703684522318,9971,HTTP Request1 S 4,200,OK,Thread Group 1-8,text,true,,50099,121,11,33,http://192.168.52.128/4.csv,9701,0,9602
+1703684529000,5024,HTTP Request1 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-3,text,false,,2094,0,11,33,http://192.168.52.128/3.jpg,0,0,0
+1703684529024,5000,HTTP Request1 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,text,false,,2094,0,11,33,http://192.168.52.128/36.pdf,0,0,0
+1703684532105,1918,HTTP Request3 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 3-10,text,false,,2094,0,11,33,http://192.168.52.128/9.jpg,0,0,0
+1703684532289,4733,HTTP Request1 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/24.jpg,0,0,0
+1703684499756,39084,HTTP Request1 L 3,200,OK,Thread Group 1-1,text,true,,41515418,122,11,33,http://192.168.52.128/36.pdf,3,0,0
+1703684538839,1,HTTP Request1 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,text,false,,2094,0,11,33,http://192.168.52.128/36.pdf,0,0,0
+1703684529286,9623,HTTP Request2 S 3,200,OK,Thread Group 2-4,text,true,,103955,122,11,33,http://192.168.52.128/7.html,2728,0,2626
+1703684538909,0,HTTP Request2 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-4,text,false,,2094,0,11,33,http://192.168.52.128/7.html,0,0,0
+1703684532130,6874,HTTP Request2 S 3,200,OK,Thread Group 2-2,text,true,,103954,122,11,33,http://192.168.52.128/7.html,126,0,0
+1703684539005,0,HTTP Request2 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,11,33,http://192.168.52.128/29.jpg,0,0,0
+1703684534024,5215,HTTP Request1 S 3,200,OK,Thread Group 1-7,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,5022,0,4897
+1703684537023,2217,HTTP Request1 S 3,200,OK,Thread Group 1-8,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,2028,0,1903
+1703684532638,9822,HTTP Request2 S 1,200,OK,Thread Group 2-10,text,true,,72135,122,11,33,http://192.168.52.128/5.html,6404,0,6279
+1703684526911,15606,HTTP Request1 M 4,200,OK,Thread Group 1-4,text,true,,899173,122,11,33,http://192.168.52.128/26.csv,2111,0,1997
+1703684542517,0,HTTP Request1 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,text,false,,2094,0,11,33,http://192.168.52.128/35.pdf,0,0,0
+1703684529687,12954,HTTP Request2 S 2,200,OK,Thread Group 2-3,bin,true,,79575,121,11,33,http://192.168.52.128/6.jpg,9547,0,2235
+1703684539381,6514,HTTP Request2 S 4,200,OK,Thread Group 2-4,text,true,,119484,122,11,33,http://192.168.52.128/8.html,3146,0,3035
+1703684534024,18628,HTTP Request1 S 3,200,OK,Thread Group 1-3,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,18413,0,4898
+1703684534024,22556,HTTP Request3 S 2,200,OK,Thread Group 3-10,bin,true,,169789,122,11,33,http://192.168.52.128/10.mp4,18413,0,4898
+1703684539240,17366,HTTP Request1 M 1,200,OK,Thread Group 1-8,text,true,,1072802,122,11,33,http://192.168.52.128/23.csv,3145,0,0
+1703684556607,1,HTTP Request1 M 4,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/26.csv,0,0,0
+1703684532159,24572,HTTP Request1 M 2,200,OK,Thread Group 1-10,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,7074,0,135
+1703684556733,639,HTTP Request1 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,text,false,,2094,0,11,33,http://192.168.52.128/24.jpg,0,0,0
+1703684539476,20891,HTTP Request2 M 1,200,OK,Thread Group 2-2,bin,true,,830182,122,11,33,http://192.168.52.128/27.jpg,3052,0,2940
+1703684560368,343,HTTP Request2 S 3,200,OK,Thread Group 2-2,text,true,,103954,122,11,33,http://192.168.52.128/7.html,145,0,0
+1703684557373,3376,HTTP Request1S 2,200,OK,Thread Group 1-10,bin,true,,43732,121,11,33,http://192.168.52.128/2.mp4,3193,0,3072
+1703684560840,4694,HTTP Request2 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,11,33,http://192.168.52.128/7.html,0,0,0
+1703684560748,5157,HTTP Request1 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,text,false,,2094,0,11,33,http://192.168.52.128/1.txt,0,0,0
+1703684539155,27436,HTTP Request1 M 2,200,OK,Thread Group 1-1,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,7031,0,3174
+1703684566591,1,HTTP Request1 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,text,false,,2094,0,11,33,http://192.168.52.128/25.pdf,0,0,0
+1703684542832,23765,HTTP Request1 M 3,200,OK,Thread Group 1-4,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,3171,0,3057
+1703684566597,1,HTTP Request1 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,text,false,,2094,0,11,33,http://192.168.52.128/25.pdf,0,0,0
+1703684565906,717,HTTP Request1 S 4,200,OK,Thread Group 1-10,text,true,,50099,121,11,33,http://192.168.52.128/4.csv,556,0,477
+1703684565535,1129,HTTP Request2 S 2,200,OK,Thread Group 2-2,bin,true,,79575,121,11,33,http://192.168.52.128/6.jpg,927,0,847
+1703684498691,68134,HTTP Request3 L 1,200,OK,Thread Group 3-1,text,true,,106800319,122,11,33,http://192.168.52.128/40.txt,40,0,27
+1703684566664,4820,HTTP Request2 S 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,11,33,http://192.168.52.128/6.jpg,0,0,0
+1703684556582,15348,HTTP Request3 M 1,200,OK,Thread Group 3-10,bin,true,,966151,122,11,33,http://192.168.52.128/31.bmp,112,0,0
+1703684571929,1,HTTP Request3 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 3-10,text,false,,2094,0,11,33,http://192.168.52.128/33.bmp,0,0,0
+1703684566913,5155,HTTP Request1S 2,200,OK,Thread Group 1-4,bin,true,,43732,121,11,33,http://192.168.52.128/2.mp4,5046,0,4966
+1703684556921,20563,HTTP Request1 M 3,200,OK,Thread Group 1-8,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,3645,0,3525
+1703684577484,1,HTTP Request1 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/35.pdf,0,0,0
+1703684566623,10973,HTTP Request1 M 3,200,OK,Thread Group 1-10,text,true,,1188300,122,11,33,http://192.168.52.128/25.pdf,99,0,0
+1703684577597,1,HTTP Request1 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,text,false,,2094,0,11,33,http://192.168.52.128/24.jpg,0,0,0
+1703684572873,6946,HTTP Request3 S 3,200,OK,Thread Group 3-10,text,true,,194662,123,11,33,http://192.168.52.128/11.xlsx,4603,0,4515
+1703684571484,8398,HTTP Request2 M 1,200,OK,Thread Group 2-2,bin,true,,830182,122,11,33,http://192.168.52.128/27.jpg,477,0,397
+1703684579882,186,HTTP Request2 S 2,200,OK,Thread Group 2-2,bin,true,,79574,121,11,33,http://192.168.52.128/6.jpg,79,0,0
+1703684580354,4685,HTTP Request2 S 3,200,OK,Thread Group 2-2,text,true,,103954,122,11,33,http://192.168.52.128/7.html,4544,0,0
+1703684585039,196,HTTP Request2 S 2,200,OK,Thread Group 2-2,bin,true,,79574,121,11,33,http://192.168.52.128/6.jpg,80,0,0
+1703684499784,87633,HTTP Request3 L 1,200,OK,Thread Group 3-2,text,true,,106800318,122,11,33,http://192.168.52.128/40.txt,8,0,0
+1703684506589,89949,HTTP Request1 L 1,200,OK,Thread Group 1-9,text,true,,24636579,122,11,33,http://192.168.52.128/34.pdf,3921,0,3804
+1703684528852,86639,HTTP Request1 L 3,200,OK,Thread Group 1-11,text,true,,41515418,122,11,33,http://192.168.52.128/36.pdf,123,0,0
+1703684502604,113131,HTTP Request2 M 2,200,OK,Thread Group 2-5,bin,true,,855008,122,11,33,http://192.168.52.128/28.bmp,3294,0,3239
+1703684506068,110051,HTTP Request2 L 1,200,OK,Thread Group 2-6,text,true,,49283389,122,11,33,http://192.168.52.128/37.txt,111,0,0
+1703684615734,1305,HTTP Request2 S 4,200,OK,Thread Group 2-5,text,true,,119484,122,11,33,http://192.168.52.128/8.html,1052,0,1017
+1703684616119,1157,HTTP Request2 S 4,200,OK,Thread Group 2-6,text,true,,119484,122,11,33,http://192.168.52.128/8.html,1032,0,1010
+1703684617040,3453,HTTP Request2 S 3,200,OK,Thread Group 2-5,text,true,,103954,122,11,33,http://192.168.52.128/7.html,271,0,0
+1703684617276,3301,HTTP Request2 S 1,200,OK,Thread Group 2-6,text,true,,72134,122,11,33,http://192.168.52.128/5.html,3116,0,0
+1703684552654,68042,HTTP Request1 L 3,200,OK,Thread Group 1-3,text,true,,41515418,122,11,33,http://192.168.52.128/36.pdf,3651,0,0
+1703684620578,141,HTTP Request2 S 3,200,OK,Thread Group 2-6,text,true,,103954,122,11,33,http://192.168.52.128/7.html,14,0,0
+1703684545895,74880,HTTP Request2 L 1,200,OK,Thread Group 2-4,text,true,,49283389,122,11,33,http://192.168.52.128/37.txt,112,0,0
+1703684577800,42990,HTTP Request1 L 1,200,OK,Thread Group 1-8,text,true,,24636579,122,11,33,http://192.168.52.128/34.pdf,2163,0,2084
+1703684620493,491,HTTP Request2 M 3,200,OK,Thread Group 2-5,bin,true,,937261,122,11,33,http://192.168.52.128/29.jpg,27,0,0
+1703684620984,59,HTTP Request2 S 3,200,OK,Thread Group 2-5,text,true,,103954,122,11,33,http://192.168.52.128/7.html,15,0,0
+1703684621052,112,HTTP Request2 S 3,200,OK,Thread Group 2-6,text,true,,103954,122,11,33,http://192.168.52.128/7.html,23,0,0
+1703684539239,82042,HTTP Request1 L 1,200,OK,Thread Group 1-7,text,true,,24636578,122,11,33,http://192.168.52.128/34.pdf,3145,0,0
+1703684515695,105660,HTTP Request1 L 2,200,OK,Thread Group 1-2,text,true,,34622168,122,11,33,http://192.168.52.128/35.pdf,6370,0,6221
+1703684620696,869,HTTP Request1 M 3,200,OK,Thread Group 1-3,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,37,0,14
+1703684621566,33,HTTP Request1 S 1,200,OK,Thread Group 1-3,text,true,,19766,121,11,33,http://192.168.52.128/1.txt,17,0,0
+1703684621520,177,HTTP Request2 S 4,200,OK,Thread Group 2-6,text,true,,119483,122,11,33,http://192.168.52.128/8.html,18,0,0
+1703684515695,106033,HTTP Request1 L 2,200,OK,Thread Group 1-6,text,true,,34622168,122,11,33,http://192.168.52.128/35.pdf,6369,0,6221
+1703684621457,521,HTTP Request2 M 3,200,OK,Thread Group 2-5,bin,true,,937261,122,11,33,http://192.168.52.128/29.jpg,16,0,0
+1703684621978,43,HTTP Request2 S 3,200,OK,Thread Group 2-5,text,true,,103954,122,11,33,http://192.168.52.128/7.html,12,0,0
+1703684621355,701,HTTP Request1 M 4,200,OK,Thread Group 1-2,text,true,,899173,122,11,33,http://192.168.52.128/26.csv,85,0,31
+1703684622057,43,HTTP Request1 S 3,200,OK,Thread Group 1-2,bin,true,,42122,121,11,33,http://192.168.52.128/3.jpg,23,0,0
+1703684504605,117697,HTTP Request2 L 2,200,OK,Thread Group 2-7,text,true,,62235226,122,11,33,http://192.168.52.128/38.pdf,1299,0,1243
+1703684622301,182,HTTP Request2 S 1,200,OK,Thread Group 2-7,text,true,,72135,122,11,33,http://192.168.52.128/5.html,53,0,28
+1703684622773,5537,HTTP Request2 L 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-7,text,false,,2094,0,11,33,http://192.168.52.128/37.txt,0,0,0
+1703684622374,5936,HTTP Request1 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-2,text,false,,2094,0,11,33,http://192.168.52.128/3.jpg,0,0,0
+1703684622449,5911,HTTP Request2 S 2,200,OK,Thread Group 2-5,bin,true,,79574,121,11,33,http://192.168.52.128/6.jpg,38,0,0
+1703684628362,0,HTTP Request2 L 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-5,text,false,,2094,0,11,33,http://192.168.52.128/37.txt,0,0,0
+1703684621281,7218,HTTP Request1 M 3,200,OK,Thread Group 1-7,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,288,0,24
+1703684628500,0,HTTP Request1 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,text,false,,2094,0,11,33,http://192.168.52.128/1.txt,0,0,0
+1703684628312,208,HTTP Request1 S 3,200,OK,Thread Group 1-2,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,136,0,61
+1703684621728,6864,HTTP Request1 M 2,200,OK,Thread Group 1-6,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,271,0,17
+1703684628593,1,HTTP Request1 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-6,text,false,,2094,0,11,33,http://192.168.52.128/24.jpg,0,0,0
+1703684621992,6608,HTTP Request2 M 1,200,OK,Thread Group 2-6,bin,true,,830181,122,11,33,http://192.168.52.128/27.jpg,28,0,0
+1703684628602,0,HTTP Request2 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-6,text,false,,2094,0,11,33,http://192.168.52.128/29.jpg,0,0,0
+1703684628834,311,HTTP Request2 S 1,200,OK,Thread Group 2-5,text,true,,72135,122,11,33,http://192.168.52.128/5.html,136,0,66
+1703684629307,5071,HTTP Request2 L 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-5,text,false,,2094,0,11,33,http://192.168.52.128/37.txt,0,0,0
+1703684628312,10681,HTTP Request2 M 3,200,OK,Thread Group 2-7,bin,true,,937262,122,11,33,http://192.168.52.128/29.jpg,136,0,61
+1703684638993,0,HTTP Request2 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-7,text,false,,2094,0,11,33,http://192.168.52.128/39.mp3,0,0,0
+1703684620790,18434,HTTP Request1 L 2,200,OK,Thread Group 1-8,text,true,,34622167,122,11,33,http://192.168.52.128/35.pdf,22,0,0
+1703684628625,10646,HTTP Request1 M 1,200,OK,Thread Group 1-2,text,true,,1072802,122,11,33,http://192.168.52.128/23.csv,81,0,0
+1703684639270,1,HTTP Request1 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-2,text,false,,2094,0,11,33,http://192.168.52.128/1.txt,0,0,0
+1703684639224,2233,HTTP Request1S 2,200,OK,Thread Group 1-8,bin,true,,43732,121,11,33,http://192.168.52.128/2.mp4,2142,0,68
+1703684514430,127067,HTTP Request2 L 1,200,OK,Thread Group 2-11,text,true,,49283389,122,11,33,http://192.168.52.128/37.txt,171,0,0
+1703684634378,7163,HTTP Request2 S 1,200,OK,Thread Group 2-5,text,true,,72135,122,11,33,http://192.168.52.128/5.html,6998,0,4501
+1703684639466,2291,HTTP Request2 S 4,200,OK,Thread Group 2-7,text,true,,119484,122,11,33,http://192.168.52.128/8.html,1978,0,1909
+1703684641458,4912,HTTP Request1 L 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/35.pdf,0,0,0
+1703684641541,4837,HTTP Request2 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-5,text,false,,2094,0,11,33,http://192.168.52.128/7.html,0,0,0
+1703684641757,6564,HTTP Request2 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-7,text,false,,2094,0,11,33,http://192.168.52.128/29.jpg,0,0,0
+1703684542641,105821,HTTP Request2 L 2,200,OK,Thread Group 2-3,text,true,,62235225,122,11,33,http://192.168.52.128/38.pdf,131,0,0
+1703684628817,19708,HTTP Request1 S 3,200,OK,Thread Group 1-7,bin,true,,42123,121,11,33,http://192.168.52.128/3.jpg,13387,0,10060
+1703684648525,0,HTTP Request1 S 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,text,false,,2094,0,11,33,http://192.168.52.128/3.jpg,0,0,0
+1703684648322,484,HTTP Request2 S 1,200,OK,Thread Group 2-7,text,true,,72135,122,11,33,http://192.168.52.128/5.html,193,0,86
+1703684648806,4713,HTTP Request2 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-7,text,false,,2094,0,11,33,http://192.168.52.128/39.mp3,0,0,0
+1703684646380,17018,HTTP Request2 S 4,200,OK,Thread Group 2-5,text,true,,119484,122,11,33,http://192.168.52.128/8.html,2120,0,2013
+1703684663397,0,HTTP Request2 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-5,text,false,,2094,0,11,33,http://192.168.52.128/28.bmp,0,0,0
+1703684653520,9884,HTTP Request2 S 4,200,OK,Thread Group 2-7,text,true,,119484,122,11,33,http://192.168.52.128/8.html,9860,0,9857
+1703684646372,17087,HTTP Request1 S 4,200,OK,Thread Group 1-8,text,true,,50099,121,11,33,http://192.168.52.128/4.csv,2127,0,2021
+1703684663458,1,HTTP Request1 M 2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,text,false,,2094,0,11,33,http://192.168.52.128/24.jpg,0,0,0
+1703684577911,85721,HTTP Request1 L 3,200,OK,Thread Group 1-10,text,true,,41515419,122,11,33,http://192.168.52.128/36.pdf,2052,0,1973
+1703684529142,134511,HTTP Request1 L 2,200,OK,Thread Group 1-5,text,true,,34622167,122,11,33,http://192.168.52.128/35.pdf,2673,0,0
+1703684663652,103,HTTP Request1S 2,200,OK,Thread Group 1-5,bin,true,,43732,121,11,33,http://192.168.52.128/2.mp4,38,0,20
+1703684629073,34696,HTTP Request2 M 3,200,OK,Thread Group 2-6,bin,true,,937262,122,11,33,http://192.168.52.128/29.jpg,13147,0,9804
+1703684663769,551,HTTP Request2 M 4,200,OK,Thread Group 2-6,,true,,944399,122,11,33,http://192.168.52.128/30.jmp,17,0,0
+1703684506357,158624,HTTP Request2 L 3,200,OK,Thread Group 2-1,bin,true,,83840294,122,11,33,http://192.168.52.128/39.mp3,4042,0,0
+1703684628910,36097,HTTP Request1 M 2,200,OK,Thread Group 1-6,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,12970,0,9967
+1703684506606,158420,HTTP Request2 L 3,200,OK,Thread Group 2-9,bin,true,,83840295,122,11,33,http://192.168.52.128/39.mp3,3904,0,3787
+1703684585512,79610,HTTP Request2 L 1,200,OK,Thread Group 2-2,text,true,,49283389,122,11,33,http://192.168.52.128/37.txt,1882,0,0
+1703684510724,154440,HTTP Request3 L 1,200,OK,Thread Group 3-4,text,true,,106800318,122,11,33,http://192.168.52.128/40.txt,3613,0,0
+1703684648841,16332,HTTP Request1 M 2,200,OK,Thread Group 1-7,bin,true,,1046521,122,11,33,http://192.168.52.128/24.jpg,15086,0,14532
+1703684665173,56,HTTP Request1 S 3,200,OK,Thread Group 1-7,bin,true,,42122,121,11,33,http://192.168.52.128/3.jpg,34,0,0
+1703684665007,335,HTTP Request1 M 2,200,OK,Thread Group 1-6,bin,true,,1046520,122,11,33,http://192.168.52.128/24.jpg,29,0,0
+1703684515695,149733,HTTP Request2 L 3,200,OK,Thread Group 2-8,bin,true,,83840295,122,11,33,http://192.168.52.128/39.mp3,6368,0,6221
+1703684665165,305,HTTP Request3 S 3,200,OK,Thread Group 3-4,text,true,,194662,123,11,33,http://192.168.52.128/11.xlsx,72,0,35
+1703684664320,4697,HTTP Request2 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-6,text,false,,2094,0,11,33,http://192.168.52.128/29.jpg,0,0,0
+1703684665488,3994,HTTP Request1 S 1,200,OK,Thread Group 1-7,text,true,,19766,121,11,33,http://192.168.52.128/1.txt,3911,0,0
+1703684665342,4212,HTTP Request1 S 1,200,OK,Thread Group 1-6,text,true,,19766,121,11,33,http://192.168.52.128/1.txt,4130,0,0
+1703684665123,4604,HTTP Request2 S 3,200,OK,Thread Group 2-2,text,true,,103955,122,11,33,http://192.168.52.128/7.html,4353,0,4279
+1703684669483,4927,HTTP Request1 S 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,text,false,,2094,0,11,33,http://192.168.52.128/1.txt,0,0,0
+1703684669555,4855,HTTP Request1 L 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-6,text,false,,2094,0,11,33,http://192.168.52.128/36.pdf,0,0,0
+1703684669727,4777,HTTP Request2 M 1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 2-2,text,false,,2094,0,11,33,http://192.168.52.128/27.jpg,0,0,0
+1703684621881,54206,HTTP Request1 L 3,200,OK,Thread Group 1-3,text,true,,41515418,122,11,33,http://192.168.52.128/36.pdf,16,0,0
+1703684676087,1,HTTP Request1 M 3,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-3,text,false,,2094,0,11,33,http://192.168.52.128/25.pdf,0,0,0
+1703684669018,7117,HTTP Request2 S 3,200,OK,Thread Group 2-6,text,true,,103955,122,11,33,http://192.168.52.128/7.html,6924,0,6863
+1703684542460,133752,HTTP Request2 L 2,200,OK,Thread Group 2-10,text,true,,62235225,122,11,33,http://192.168.52.128/38.pdf,107,0,0
+1703684676213,167,HTTP Request2 S 1,200,OK,Thread Group 2-10,text,true,,72135,122,11,33,http://192.168.52.128/5.html,44,0,19
+1703684615491,61112,HTTP Request1 L 2,200,OK,Thread Group 1-11,text,true,,34622168,122,11,33,http://192.168.52.128/35.pdf,39,0,22
+1703684596538,80221,HTTP Request1 L 3,200,OK,Thread Group 1-9,text,true,,41515419,122,11,33,http://192.168.52.128/36.pdf,40,0,24
+1703684674504,2293,HTTP Request2 M 3,200,OK,Thread Group 2-2,bin,true,,937262,122,11,33,http://192.168.52.128/29.jpg,1441,0,1381
+1703684676686,184,HTTP Request2 S 3,200,OK,Thread Group 2-10,text,true,,103954,122,11,33,http://192.168.52.128/7.html,46,0,0
+1703684674409,2513,HTTP Request1 M 1,200,OK,Thread Group 1-7,text,true,,1072803,122,11,33,http://192.168.52.128/23.csv,1535,0,1475
+1703684505611,171423,HTTP Request3 L 1,200,OK,Thread Group 3-8,text,true,,106800319,122,11,33,http://192.168.52.128/40.txt,301,0,240
+1703684566906,110180,HTTP Request1 L 3,200,OK,Thread Group 1-1,text,true,,41515419,122,11,33,http://192.168.52.128/36.pdf,5053,0,4973
+1703684677087,710,HTTP Request1 M 3,200,OK,Thread Group 1-1,text,true,,1188301,122,11,33,http://192.168.52.128/25.pdf,76,0,37
+1703684663968,15415,HTTP Request1 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-5,text,false,,1789,0,11,33,http://192.168.52.128/36.pdf,35,0,0
+1703684639584,39799,HTTP Request1 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,text,false,,1789,0,11,33,http://192.168.52.128/36.pdf,1860,0,1791
+1703684674409,4974,HTTP Request1 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,,1789,0,11,33,http://192.168.52.128/34.pdf,1536,0,1476
+1703684676922,2461,HTTP Request1 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,,1789,0,11,33,http://192.168.52.128/34.pdf,41,0,0
+1703684677798,1585,HTTP Request1 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,text,false,,1789,0,11,33,http://192.168.52.128/34.pdf,34,0,0
+1703684676404,2979,HTTP Request1 M 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,text,false,,1789,0,11,33,http://192.168.52.128/23.csv,1084,0,1045
+1703684663632,15751,HTTP Request1 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,,1789,0,11,33,http://192.168.52.128/36.pdf,1078,0,1054
+1703684663881,15503,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-5,text,false,,1789,0,11,33,http://192.168.52.128/37.txt,82,0,45
+1703684663773,15610,HTTP Request1 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-8,text,false,,1789,0,11,33,http://192.168.52.128/35.pdf,1056,0,1045
+1703684572069,107314,HTTP Request1 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-4,text,false,,1789,0,11,33,http://192.168.52.128/36.pdf,107,0,0
+1703684676604,2780,HTTP Request1 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-11,text,false,,1789,0,11,33,http://192.168.52.128/35.pdf,87,0,45
+1703684676758,2624,HTTP Request1 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,,2227,0,7,28,http://192.168.52.128/36.pdf,0,0,2624
+1703684663403,15982,HTTP Request2 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-7,text,false,,1789,0,10,23,http://192.168.52.128/39.mp3,17,0,0
+1703684676134,3252,HTTP Request2 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-6,text,false,,1789,0,9,20,http://192.168.52.128/38.pdf,17,0,0
+1703684620775,58611,HTTP Request2 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-4,text,false,,1789,0,9,20,http://192.168.52.128/38.pdf,30,0,13
+1703684641497,37889,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-11,text,false,,1789,0,9,20,http://192.168.52.128/37.txt,191,0,79
+1703684677157,2229,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-10,text,false,,1789,0,9,20,http://192.168.52.128/37.txt,587,0,0
+1703684676798,2588,HTTP Request2 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-2,text,false,,1789,0,9,20,http://192.168.52.128/39.mp3,339,0,0
+1703684664982,14406,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-1,text,false,,1789,0,4,15,http://192.168.52.128/37.txt,336,0,38
+1703684665428,13960,HTTP Request2 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-8,text,false,,1789,0,4,15,http://192.168.52.128/39.mp3,4049,0,3975
+1703684665026,14362,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-9,text,false,,1789,0,2,13,http://192.168.52.128/37.txt,43,0,14
+1703684648464,30925,HTTP Request2 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 2-3,text,false,,1789,0,2,13,http://192.168.52.128/37.txt,223,0,115
+1703684506172,173217,HTTP Request3 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-6,text,false,,1789,0,11,12,http://192.168.52.128/40.txt,69,0,0
+1703684587416,91972,HTTP Request3 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-2,text,false,,1789,0,10,10,http://192.168.52.128/42.bin,154,0,82
+1703684566826,112562,HTTP Request3 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-1,text,false,,1789,0,10,10,http://192.168.52.128/41.mp3,5132,0,5053
+1703684502611,176778,HTTP Request3 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-5,text,false,,1878,0,10,10,http://192.168.52.128/42.bin,3284,0,3233
+1703684527159,152231,HTTP Request3 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-9,text,false,,1789,0,8,8,http://192.168.52.128/41.mp3,12018,0,4764
+1703684666110,13280,HTTP Request3 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-4,text,false,,1789,0,6,6,http://192.168.52.128/41.mp3,3291,0,0
+1703684508609,170781,HTTP Request3 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-11,text,false,,1789,0,6,6,http://192.168.52.128/42.bin,1906,0,1787
+1703684579820,99570,HTTP Request3 L 1,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-10,text,false,,1789,0,4,4,http://192.168.52.128/40.txt,79,0,0
+1703684677034,2355,HTTP Request3 S 4,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-8,text,false,,2227,0,4,4,http://192.168.52.128/1.txt,0,0,2355
+1703684526814,152577,HTTP Request3 L 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-7,text,false,,1789,0,3,3,http://192.168.52.128/42.bin,2208,0,2094
+1703684506120,173271,HTTP Request3 L 2,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 3-3,text,false,,1789,0,1,1,http://192.168.52.128/41.mp3,67,0,0
