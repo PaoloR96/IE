@@ -1,0 +1,25 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime
+1700740695948,565,HTTP Request L3,200,OK,Thread Group 1-1,true,41515419,122,1,1,44,0
+1700740696515,382,HTTP Request L3,200,OK,Thread Group 1-1,true,41515418,122,1,1,1,0
+1700740696898,640,HTTP Request L5,200,OK,Thread Group 1-1,true,62235225,122,1,1,3,0
+1700740697539,2961,HTTP Request L11,200,OK,Thread Group 1-1,true,212695239,122,1,1,4,0
+1700740700501,475,HTTP Request L1,200,OK,Thread Group 1-1,true,24636578,122,1,1,4,0
+1700740705844,8662,HTTP Request L5,200,OK,Thread Group 1-2,true,62235226,122,2,2,6938,0
+1700740715843,21046,HTTP Request L5,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 192.168.52.128:80 [/192.168.52.128] failed: Connection timed out: connect,Thread Group 1-3,false,2606,0,3,3,0,0
+1700740714507,25540,HTTP Request L1,200,OK,Thread Group 1-2,true,24636578,122,3,3,25,0
+1700740700976,39222,HTTP Request L11,200,OK,Thread Group 1-1,true,212695239,122,3,3,2,0
+1700740740199,524,HTTP Request L3,200,OK,Thread Group 1-1,true,41515418,122,3,3,9,0
+1700740740048,3420,HTTP Request L9,200,OK,Thread Group 1-2,true,157286709,122,3,3,44,0
+1700740743469,812,HTTP Request L3,200,OK,Thread Group 1-2,true,41515418,122,3,3,5,0
+1700740740724,10296,HTTP Request L8,200,OK,Thread Group 1-1,true,139616020,122,3,3,11,0
+1700740736890,21030,HTTP Request L5,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to 192.168.52.128:80 [/192.168.52.128] failed: Connection timed out: connect,Thread Group 1-3,false,2606,0,3,3,0,0
+1700740751021,10963,HTTP Request L2,200,OK,Thread Group 1-1,true,34622167,122,3,3,6,0
+1700740744282,33097,HTTP Request L11,200,OK,Thread Group 1-2,true,212695239,122,3,3,2,0
+1700740757921,41064,HTTP Request L5,200,OK,Thread Group 1-3,true,62235226,122,3,3,106,0
+1700740761985,37035,HTTP Request L2,200,OK,Thread Group 1-1,true,34622168,122,3,3,90,0
+1700740798986,6383,HTTP Request L2,200,OK,Thread Group 1-3,true,34622167,122,3,3,33,0
+1700740799021,27266,HTTP Request L5,200,OK,Thread Group 1-1,true,62235225,122,3,3,6,0
+1700740805370,27961,HTTP Request L2,200,OK,Thread Group 1-3,true,34622167,122,3,3,69,0
+1700740833331,13361,HTTP Request L7,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,false,1789,0,3,3,31,0
+1700740777380,69312,HTTP Request L7,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,false,1789,0,3,3,60,0
+1700740826288,20404,HTTP Request L8,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,false,1789,0,3,3,82,0

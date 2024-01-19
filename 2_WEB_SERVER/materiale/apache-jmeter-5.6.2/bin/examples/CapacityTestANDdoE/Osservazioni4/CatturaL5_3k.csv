@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime
+1700744153406,1239,HTTP Request L7,200,OK,Thread Group 1-1,true,106800319,122,1,1,43,0
+1700744154650,2133,HTTP Request L9,200,OK,Thread Group 1-1,true,157286709,122,1,1,4,0
+1700744156784,951,HTTP Request L5,200,OK,Thread Group 1-1,true,62235225,122,1,1,4,0
+1700744157736,3582,HTTP Request L11,200,OK,Thread Group 1-1,true,212695239,122,1,1,4,0
+1700744161320,2528,HTTP Request L8,200,OK,Thread Group 1-1,true,139616020,122,2,2,4,0
+1700744163849,2239,HTTP Request L7,200,OK,Thread Group 1-1,true,106800318,122,2,2,23,0
+1700744166089,20839,HTTP Request L8,200,OK,Thread Group 1-1,true,139616020,122,3,3,3,0
+1700744163309,25103,HTTP Request L10,200,OK,Thread Group 1-2,true,212695240,122,3,3,9,0
+1700744186929,7737,HTTP Request L8,200,OK,Thread Group 1-1,true,139616020,122,3,3,9,0
+1700744194667,36335,HTTP Request L4,200,OK,Thread Group 1-1,true,49283389,122,3,3,26,0
+1700744173309,69660,HTTP Request L5,200,OK,Thread Group 1-3,true,62235226,122,3,3,14844,0
+1700744231004,24155,HTTP Request L2,200,OK,Thread Group 1-1,true,34622168,122,3,3,54,0
+1700744188413,75195,HTTP Request L9,200,OK,Thread Group 1-2,true,157286709,122,3,3,7,0
+1700744242970,60237,HTTP Request L9,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,false,1789,0,3,3,40,0
+1700744263610,39597,HTTP Request L6,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,false,1789,0,3,3,206,0
+1700744255160,48047,HTTP Request L6,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,false,1789,0,3,3,60,0

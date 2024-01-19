@@ -1,0 +1,125 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime
+1700326132468,500,HTTP Request L1,200,OK,Thread Group 1-1,true,24636579,122,1,1,45,0
+1700326132971,21,HTTP Request ML11,200,OK,Thread Group 1-1,true,639339,122,1,1,6,0
+1700326133346,13,HTTP Request ML11,200,OK,Thread Group 1-2,true,639340,122,2,2,4,0
+1700326133372,5,HTTP Request ML11,200,OK,Thread Group 1-1,true,639339,122,2,2,1,0
+1700326134345,12,HTTP Request ML11,200,OK,Thread Group 1-3,true,639340,122,3,3,3,0
+1700326134172,614,HTTP Request L2,200,OK,Thread Group 1-1,true,34622167,122,3,3,5,0
+1700326134145,1094,HTTP Request L4,200,OK,Thread Group 1-2,true,49283389,122,3,3,5,0
+1700326135345,8,HTTP Request ML11,200,OK,Thread Group 1-2,true,639339,122,4,4,2,0
+1700326135372,8,HTTP Request ML1,200,OK,Thread Group 1-1,true,406402,122,4,4,3,0
+1700326135545,2,HTTP Request S1,200,OK,Thread Group 1-3,true,19766,121,4,4,2,0
+1700326136344,365,HTTP Request L2,200,OK,Thread Group 1-5,true,34622168,122,5,5,3,0
+1700326136945,29,HTTP Request MH10,200,OK,Thread Group 1-2,true,974938,122,5,5,4,0
+1700326136972,3,HTTP Request S1,200,OK,Thread Group 1-1,true,19766,121,5,5,3,0
+1700326137344,38,HTTP Request MH6,200,OK,Thread Group 1-6,true,855008,122,6,6,8,0
+1700326135343,2788,HTTP Request L8,200,OK,Thread Group 1-4,true,139616021,122,6,6,9,0
+1700326138132,3,HTTP Request S1,200,OK,Thread Group 1-4,true,19766,121,6,6,3,0
+1700326138344,18,HTTP Request MH10,200,OK,Thread Group 1-5,true,974938,122,7,7,2,0
+1700326138344,22,HTTP Request MH10,200,OK,Thread Group 1-7,true,974939,122,7,7,5,0
+1700326138974,8,HTTP Request MH10,200,OK,Thread Group 1-1,true,974938,122,7,7,2,0
+1700326139345,21,HTTP Request ML11,200,OK,Thread Group 1-8,true,639340,122,8,8,7,0
+1700326140532,2605,HTTP Request ML1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,false,2094,0,10,10,0,0
+1700326141146,2209,HTTP Request S1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-5,false,2094,0,10,10,0,0
+1700326141144,2222,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,false,2094,0,10,10,0,0
+1700326141771,2212,HTTP Request L2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,false,2094,0,10,10,0,0
+1700326142545,2105,HTTP Request MH10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,false,2094,0,10,10,0,0
+1700326145773,5563,HTTP Request ML11,200,OK,Thread Group 1-1,true,639340,122,10,10,5298,0
+1700326145145,11755,HTTP Request ML1,200,OK,Thread Group 1-5,true,406403,122,10,10,11421,0
+1700326144532,12380,HTTP Request ML1,200,OK,Thread Group 1-4,true,406403,122,10,10,12033,0
+1700326156913,20319,HTTP Request ML1,200,OK,Thread Group 1-4,true,406402,122,10,10,72,0
+1700326177233,0,HTTP Request L8,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,false,2094,0,10,10,0,0
+1700326145145,32222,HTTP Request MH10,200,OK,Thread Group 1-7,true,974939,122,10,10,11421,0
+1700326177368,1,HTTP Request S1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-7,false,2094,0,10,10,0,0
+1700326146544,30852,HTTP Request L4,200,OK,Thread Group 1-8,true,49283390,122,10,10,4527,0
+1700326177397,78,HTTP Request S1,200,OK,Thread Group 1-8,true,19766,121,10,10,78,0
+1700326156900,20577,HTTP Request MH6,200,OK,Thread Group 1-5,true,855007,122,10,10,63,0
+1700326177478,2421,HTTP Request ML11,200,OK,Thread Group 1-5,true,639339,122,10,10,2073,0
+1700326181398,1174,HTTP Request L8,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,false,2094,0,10,10,0,0
+1700326181479,3229,HTTP Request ML1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-5,false,2094,0,10,10,0,0
+1700326137145,50315,HTTP Request L10,200,OK,Thread Group 1-3,true,212695239,122,10,10,5,0
+1700326187461,6164,HTTP Request MH10,200,OK,Thread Group 1-3,true,974938,122,10,10,69,0
+1700326193625,1,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-3,false,2094,0,10,10,0,0
+1700326185478,10575,HTTP Request MH10,200,OK,Thread Group 1-5,true,974939,122,10,10,1876,0
+1700326151337,47349,HTTP Request L8,200,OK,Thread Group 1-1,true,139616020,122,10,10,193,0
+1700326198687,33,HTTP Request S1,200,OK,Thread Group 1-1,true,19766,121,10,10,33,0
+1700326202688,1284,HTTP Request ML11,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,false,2094,0,10,10,0,0
+1700326197626,6680,HTTP Request MH10,200,OK,Thread Group 1-3,true,974939,122,10,10,1071,0
+1700326138947,65465,HTTP Request L10,200,OK,Thread Group 1-2,true,212695239,122,10,10,1,0
+1700326139744,64813,HTTP Request L8,200,OK,Thread Group 1-6,true,139616020,122,10,10,6,0
+1700326204413,2593,HTTP Request MH6,200,OK,Thread Group 1-2,true,855008,122,10,10,66,0
+1700326141346,67950,HTTP Request L2,200,OK,Thread Group 1-10,true,34622168,122,10,10,15219,0
+1700326208413,3806,HTTP Request L2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-2,false,2094,0,10,10,0,0
+1700326196053,20981,HTTP Request L1,200,OK,Thread Group 1-5,true,24636578,122,10,10,50,0
+1700326217035,4882,HTTP Request ML11,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-5,false,2094,0,10,10,0,0
+1700326221919,689,HTTP Request S1,200,OK,Thread Group 1-5,true,19767,121,10,10,664,0
+1700326140345,82412,HTTP Request L1,200,OK,Thread Group 1-9,true,24636579,122,10,10,16219,0
+1700326225924,1663,HTTP Request ML1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-5,false,2094,0,10,10,0,0
+1700326222758,10540,HTTP Request MH10,200,OK,Thread Group 1-9,true,974939,122,10,10,102,0
+1700326233298,67,HTTP Request S1,200,OK,Thread Group 1-9,true,19766,121,10,10,61,0
+1700326181233,56371,HTTP Request L2,200,OK,Thread Group 1-4,true,34622168,122,10,10,5387,0
+1700326181368,56556,HTTP Request L4,200,OK,Thread Group 1-7,true,49283390,122,10,10,5252,0
+1700326237924,5135,HTTP Request MH10,200,OK,Thread Group 1-7,true,974938,122,10,10,80,0
+1700326209297,36668,HTTP Request L1,200,OK,Thread Group 1-10,true,24636579,122,10,10,94,0
+1700326245967,168,HTTP Request S1,200,OK,Thread Group 1-10,true,19766,121,10,10,168,0
+1700326237605,11116,HTTP Request L2,200,OK,Thread Group 1-4,true,34622167,122,10,10,16,0
+1700326249968,1,HTTP Request ML1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,false,2094,0,10,10,0,0
+1700326253971,6828,HTTP Request MH10,200,OK,Thread Group 1-10,true,974939,122,10,10,3140,0
+1700326204558,56439,HTTP Request L2,200,OK,Thread Group 1-6,true,34622168,122,10,10,2041,0
+1700326237301,30539,HTTP Request L4,200,OK,Thread Group 1-9,true,49283389,122,10,10,286,0
+1700326204306,63786,HTTP Request L8,200,OK,Thread Group 1-3,true,139616020,122,10,10,106,0
+1700326260998,20256,HTTP Request L1,200,OK,Thread Group 1-6,true,24636578,122,10,10,2615,0
+1700326267841,19175,HTTP Request L1,200,OK,Thread Group 1-9,true,24636578,122,10,10,69,0
+1700326185398,107340,HTTP Request L8,200,OK,Thread Group 1-8,true,139616021,122,10,10,1965,0
+1700326287018,9551,HTTP Request MH10,200,OK,Thread Group 1-9,true,974939,122,10,10,5579,0
+1700326206688,96788,HTTP Request L8,200,OK,Thread Group 1-1,true,139616021,122,10,10,108,0
+1700326303479,3426,HTTP Request ML1,200,OK,Thread Group 1-1,true,406403,122,10,10,3103,0
+1700326307479,5110,HTTP Request MH6,200,OK,Thread Group 1-1,true,855007,122,10,10,2607,0
+1700326312590,2493,HTTP Request MH6,200,OK,Thread Group 1-1,true,855007,122,10,10,24,0
+1700326316591,1315,HTTP Request L1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,false,2094,0,10,10,0,0
+1700326260798,62904,HTTP Request L4,200,OK,Thread Group 1-10,true,49283389,122,10,10,70,0
+1700326292740,31014,HTTP Request L1,200,OK,Thread Group 1-8,true,24636579,122,10,10,117,0
+1700326320589,10617,HTTP Request ML11,200,OK,Thread Group 1-1,true,639340,122,10,10,3025,0
+1700326331207,0,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,false,2094,0,10,10,0,0
+1700326323703,7807,HTTP Request ML1,200,OK,Thread Group 1-10,true,406403,122,10,10,7427,0
+1700326331510,4991,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,false,2094,0,10,10,0,0
+1700326296570,55701,HTTP Request L2,200,OK,Thread Group 1-9,true,34622167,122,10,10,13,0
+1700326268093,87153,HTTP Request L2,200,OK,Thread Group 1-3,true,34622168,122,10,10,4504,0
+1700326336502,18767,HTTP Request ML1,200,OK,Thread Group 1-10,true,406403,122,10,10,15072,0
+1700326243061,112534,HTTP Request L10,200,OK,Thread Group 1-7,true,212695240,122,10,10,56,0
+1700326229923,125909,HTTP Request L10,200,OK,Thread Group 1-5,true,212695240,122,10,10,3170,0
+1700326352271,3605,HTTP Request MH10,200,OK,Thread Group 1-9,true,974939,122,10,10,3116,0
+1700326355269,4833,HTTP Request ML1,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-10,false,2094,0,10,10,0,0
+1700326356272,4369,HTTP Request L2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-9,false,2094,0,10,10,0,0
+1700326335208,29548,HTTP Request ML11,200,OK,Thread Group 1-1,true,639340,122,10,10,29366,0
+1700326355832,9019,HTTP Request MH6,200,OK,Thread Group 1-5,true,855008,122,10,10,109,0
+1700326355595,25185,HTTP Request L2,200,OK,Thread Group 1-7,true,34622168,122,10,10,119,0
+1700326364755,16861,HTTP Request L1,200,OK,Thread Group 1-1,true,24636578,122,10,10,48,0
+1700326281255,100406,HTTP Request L8,200,OK,Thread Group 1-6,true,139616021,122,10,10,159,0
+1700326381617,60,HTTP Request ML11,200,OK,Thread Group 1-1,true,639339,122,10,10,45,0
+1700326385618,1048,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-1,false,2094,0,10,10,0,0
+1700326323755,66376,HTTP Request L10,200,OK,Thread Group 1-8,true,212695239,122,10,10,63,0
+1700326360641,29490,HTTP Request MH6,200,OK,Thread Group 1-9,true,855008,122,10,10,19445,0
+1700326248722,141585,HTTP Request L10,200,OK,Thread Group 1-4,true,212695240,122,10,10,2382,0
+1700326390132,4635,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-9,false,2094,0,10,10,0,0
+1700326394768,4329,HTTP Request S1,200,OK,Thread Group 1-9,true,19767,121,10,10,4328,0
+1700326390307,8885,HTTP Request ML1,200,OK,Thread Group 1-4,true,406403,122,10,10,73,0
+1700326399193,0,HTTP Request MH10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-4,false,2094,0,10,10,0,0
+1700326399097,5057,HTTP Request MH6,200,OK,Thread Group 1-9,true,855007,122,10,10,4,0
+1700326404154,264,HTTP Request ML1,200,OK,Thread Group 1-9,true,406402,122,10,10,43,0
+1700326408157,1206,HTTP Request L2,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-9,false,2094,0,10,10,0,0
+1700326390132,19979,HTTP Request MH10,200,OK,Thread Group 1-8,true,974939,122,10,10,13968,0
+1700326410112,1,HTTP Request L8,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,false,2094,0,10,10,0,0
+1700326403193,7185,HTTP Request ML1,200,OK,Thread Group 1-4,true,406403,122,10,10,6933,0
+1700326360103,65652,HTTP Request L1,200,OK,Thread Group 1-10,true,24636579,122,9,9,19983,0
+1700326381662,44398,HTTP Request L1,200,OK,Thread Group 1-6,true,24636579,122,9,9,7969,0
+1700326414113,12016,HTTP Request S1,200,OK,Thread Group 1-8,true,19767,121,9,9,11964,0
+1700326426129,405,HTTP Request ML1,200,OK,Thread Group 1-8,true,406402,122,8,8,64,0
+1700326429329,2106,HTTP Request MH10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-8,false,2094,0,8,8,0,0
+1700326412156,20652,HTTP Request L4,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,false,1789,0,7,7,13917,0
+1700326212413,220395,HTTP Request L10,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,false,1789,0,7,7,4163,0
+1700326355247,77561,HTTP Request L4,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,false,1789,0,7,7,24839,0
+1700326426061,6747,HTTP Request L10,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,false,1789,0,6,6,326,0
+1700326410380,22428,HTTP Request L10,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-4,false,1789,0,7,7,2531,0
+1700326389620,43188,HTTP Request L10,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,false,1789,0,2,2,690,0
+1700326425755,7054,HTTP Request MH6,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,false,2227,0,1,1,0,0

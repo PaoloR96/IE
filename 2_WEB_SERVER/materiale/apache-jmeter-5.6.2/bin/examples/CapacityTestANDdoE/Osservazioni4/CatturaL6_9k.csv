@@ -1,0 +1,22 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime
+1700741090985,568,HTTP Request L4,200,OK,Thread Group 1-1,true,49283390,122,1,1,38,0
+1700741091555,1695,HTTP Request L9,200,OK,Thread Group 1-1,true,157286709,122,1,1,4,0
+1700741093251,543,HTTP Request L2,200,OK,Thread Group 1-1,true,34622167,122,1,1,4,0
+1700741093795,336,HTTP Request L4,200,OK,Thread Group 1-1,true,49283389,122,1,1,2,0
+1700741094132,1185,HTTP Request L6,200,OK,Thread Group 1-1,true,83840294,122,1,1,5,0
+1700741095318,8559,HTTP Request L9,200,OK,Thread Group 1-1,true,157286709,122,2,2,2,0
+1700741103877,831,HTTP Request L1,200,OK,Thread Group 1-1,true,24636578,122,2,2,3,0
+1700741104709,971,HTTP Request L3,200,OK,Thread Group 1-1,true,41515418,122,2,2,4,0
+1700741100906,7383,HTTP Request L8,200,OK,Thread Group 1-2,true,139616021,122,2,2,2740,0
+1700741105681,49626,HTTP Request L9,200,OK,Thread Group 1-1,true,157286709,122,3,3,1,0
+1700741108291,49553,HTTP Request L6,200,OK,Thread Group 1-2,true,83840294,122,3,3,14,0
+1700741110907,64182,HTTP Request L4,200,OK,Thread Group 1-3,true,49283390,122,3,3,39873,0
+1700741157846,45635,HTTP Request L6,200,OK,Thread Group 1-2,true,83840294,122,3,3,16,0
+1700741155309,59254,HTTP Request L3,200,OK,Thread Group 1-1,true,41515419,122,3,3,32,0
+1700741203481,18575,HTTP Request L1,200,OK,Thread Group 1-2,true,24636579,122,3,3,13,0
+1700741175090,47102,HTTP Request L2,200,OK,Thread Group 1-3,true,34622168,122,3,3,7605,0
+1700741222058,4948,HTTP Request L10,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-2,false,2094,0,3,3,0,0
+1700741222193,4944,HTTP Request L6,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: 192.168.52.128:80 failed to respond,Thread Group 1-3,false,2094,0,3,3,0,0
+1700741227139,13743,HTTP Request L8,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,false,2227,0,3,3,0,0
+1700741227007,13875,HTTP Request L11,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,false,2227,0,3,3,0,0
+1700741214564,26319,HTTP Request L5,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,false,1789,0,3,3,35,0
